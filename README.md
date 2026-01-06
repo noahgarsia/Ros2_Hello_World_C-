@@ -51,5 +51,19 @@ The subscriber node listens to the topic /project_1_example_topic. For each mess
 Topic name: /project_1_example_topic 
 Message type: std_msgs/msg/String
 
+## Testing
+This package uses Google Testing (GTest) to test both the publisher and the subscriber. The tests for the publisher conduct three different checks, which include:
+- TEST 1: Node name and number of publishers
+- TEST 2: Publisher actually sends the message
+- TEST 3: Counter increments using the timer callback
+
+The subscriber also uses GTest to conduct one test:
+- TEST 1: Verify the subscriber callback is triggered
+
+These tests ensure the publisher and subscriber function as expected.
+
+## Launch Files 
+The launch file setup is designed to demonstrate that the system works correctly. It runs both the publisher and subscriber for 10 seconds, then shuts them down and executes the tests. The publisher tests are run first, followed by the subscriber tests.
+
 ## How to Clone it
 This project is released under the MIT License and can be cloned directly into a ROS 2 workspace. To get started, create or navigate to a fresh ROS 2 workspace and move into the src directory. Clone the repository into this directory, then return to the root of the workspace and build the project using colcon build. Once the build completes successfully, source the workspace with source install/setup.bash so ROS 2 can locate the package. After sourcing, the nodes can be launched using the provided launch file and will continue running until the user terminates execution with Ctrl + C.
