@@ -1,5 +1,5 @@
-## ROS2 C++ Hello World
-Freelancing
+# ROS2 C++ Hello World
+## Freelancing
 This repository is part of my robotics portfolio. I’m open to freelance, contract, and collaborative work involving ROS 2 and robotics software development.
 
 ## Overview
