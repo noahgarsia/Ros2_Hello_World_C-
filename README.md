@@ -2,6 +2,9 @@
 ## Freelancing
 This repository is part of my robotics portfolio. I’m open to freelance, contract, and collaborative work involving ROS 2 and robotics software development.
 
+##Video for publisher, subscriber, and test validation
+https://github.com/user-attachments/assets/8b650f80-4cc9-48b3-8e39-33db2b1d0284
+
 ## Overview
 This repository contains a minimal ROS2 C++ project demonstrating the C++ publisher and subscriber. The publisher operates from a counter in a indefinate loop. The subsriber users the counter and for every increment of it pulbish the "hello world + increment".
 
