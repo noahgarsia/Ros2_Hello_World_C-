@@ -2,7 +2,7 @@
 ## Freelancing
 This repository is part of my robotics portfolio. I’m open to freelance, contract, and collaborative work involving ROS 2 and robotics software development.
 
-##Video for publisher, subscriber, and test validation
+##Video for publisher, subscriber, and test validation. The link is below:
 https://github.com/user-attachments/assets/962a2a20-0293-4c75-8dad-75792b89d70d
 
 ## Overview
